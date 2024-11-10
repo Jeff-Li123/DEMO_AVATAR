@@ -2,7 +2,7 @@
 const fetchJsonFile = await fetch("./api.json")
 const DID_API = await fetchJsonFile.json()
 
-if (DID_API.key == '🤫') alert('Please put your api key inside ./api.json and restart..');
+if (DID_API.key == '😂') alert('Please put your api key inside ./api.json and restart..');
 
 const RTCPeerConnection = (
   window.RTCPeerConnection ||
