@@ -348,7 +348,7 @@ function setStreamVideoElement(stream) {
 }
 
 function playIdleVideo() {
-  idleVideoElement.src = DID_API.service == 'clips' ? 'alex_v2_idle.mp4' : 'WeChat_241019.mp4';
+  idleVideoElement.src = DID_API.service == 'clips' ? 'resource/alex_v2_idle.mp4' : 'resource/WeChat_241019.mp4';
 }
 
 function stopAllStreams() {

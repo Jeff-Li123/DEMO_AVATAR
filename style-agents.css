@@ -159,7 +159,7 @@ textarea {
 video {
   /* display: block; */
   border-radius: 50%;
-  background-image: url("WeChat_wangLikes.png");
+  background-image: url("resource/WeChat_wangLikes.png");
   background-position: top;
   /* position: absolute; */
   background-size: contain;

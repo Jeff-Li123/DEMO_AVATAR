@@ -210,7 +210,7 @@ function playIdleVideo() {
   videoElement.classList.toggle("animated")
 
   videoElement.srcObject = undefined;
-  videoElement.src = 'WeChat_241019.mp4';
+  videoElement.src = 'resource/WeChat_241019.mp4';
   videoElement.loop = true;
 
   // Remove Animation Class after it's completed
