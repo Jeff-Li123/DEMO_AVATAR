@@ -284,7 +284,7 @@ connectButton.onclick = async () => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      source_url: 'https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg'
+      source_url: 'https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg'
     }),
   });
 
@@ -464,8 +464,8 @@ async function agentsAPIworkflow() {
           "type": "microsoft",
           "voice_id": "en-US-JennyMultilingualV2Neural"
         },
-        "thumbnail": "https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg",
-        "source_url": "https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg"
+        "thumbnail": "https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg",
+        "source_url": "https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg"
       },
       "llm": {
         "type": "openai",
