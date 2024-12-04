@@ -12,7 +12,15 @@
 
 <body>
   <div id="content">
-
+    <!-- 录音和上传的功能 -->
+    <div>
+      <h3>Record and Transcribe:</h3>
+      <button id="record-button">Start Recording</button>
+      <button id="stop-record-button" disabled>Stop Recording</button>
+      <button id="upload-button" disabled>Upload</button>
+      <textarea id="textArea" cols="50" rows="5" maxlength="280"
+        placeholder="Transcription will appear here"></textarea>
+    </div>
     <div id="status">
       <h4>Agent Status</h4>
       Agent ID: <label id="agentId-label"></label><br />
@@ -56,6 +64,13 @@
 
   <script type="module" src="./agents-client-api.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- 引入 JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./agents-client-api.js"></script> <!-- 如果需要 -->
+
+  <!-- 添加自己的录音和上传逻辑 -->
+  <script src="./audio-record.js"></script> <!-- 保存逻辑在单独文件中 -->
 </body>
 
 </html>
