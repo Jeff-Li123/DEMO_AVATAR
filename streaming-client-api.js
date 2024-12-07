@@ -38,7 +38,7 @@ const streamEventLabel = document.getElementById('stream-event-label');
 
 const presenterInputByService = {
   talks: {
-    source_url: 'https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg',
+    source_url: 'https://i.postimg.cc/W3d9ztBL/We-Chat-wang-Likes.jpg'
   },
   clips: {
     presenter_id: 'v2_public_alex@qcvo4gupoy',
