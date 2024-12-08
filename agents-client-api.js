@@ -269,7 +269,7 @@ connectButton.onclick = async () => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      source_url: 'https://i.postimg.cc/W3d9ztBL/We-Chat-wang-Likes.jpg'
+      source_url: 'https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/image.png'
     }),
   });
 
