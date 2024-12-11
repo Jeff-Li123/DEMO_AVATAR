@@ -202,7 +202,7 @@ function setVideoElement(stream) {
 
 function playIdleVideo() {
   videoElement.srcObject = undefined;
-  videoElement.src = 'resource/did_cutscene_7sec.mp4';
+  videoElement.src = 'https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_ZYM-F0Np/idle_1733577842580.mp4';
   videoElement.loop = true;
 }
 

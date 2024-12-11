@@ -348,7 +348,7 @@ function setStreamVideoElement(stream) {
 }
 
 function playIdleVideo() {
-  idleVideoElement.src = DID_API.service == 'clips' ? 'resource/alex_v2_idle.mp4' : 'resource/did_cutscene_7sec.mp4';
+  idleVideoElement.src = DID_API.service == 'clips' ? 'resource/alex_v2_idle.mp4' : 'https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_ZYM-F0Np/idle_1733577842580.mp4';
 }
 
 function stopAllStreams() {
