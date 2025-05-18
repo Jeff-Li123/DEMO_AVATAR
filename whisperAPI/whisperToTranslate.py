@@ -23,7 +23,7 @@ def transcribe_audio(filename, output_file):
     print("加载 Whisper 模型...")
     model = whisper.load_model("small")  # 根据需求选择模型
     print("开始语音识别...")
-    result = model.transcribe(filename, language="en")  # 指定语言为中文
+    result = model.transcribe(filename, language="ja")  # 指定语言为中文
     text = result["text"]
     print("识别结果：")
     print(text)

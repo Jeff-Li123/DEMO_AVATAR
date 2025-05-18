@@ -1,0 +1,377 @@
+{
+    "agents": [
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/image.png",
+            "chats": 234,
+            "created_at": "2024-10-28T02:59:13.841Z",
+            "greetings": [
+                "Hi! I'm  Aibo Johnson. お帰り、今日も頑張ったね、"
+            ],
+            "preview_name": "Johnson",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "done",
+            "access": "unlisted",
+            "preview_description": "This Agent is designed to help users cultivate a positive mindset by providing compassionate responses and encouragement, especially when they share negative thoughts. It aims to create a warm and safe space for users to express their feelings and find comfort, avoiding negative language or judgment. The tone is friendly, conversational, and supportive, intended to make users feel heard and understood.",
+            "score": 234,
+            "llm": {
+                "template": "assistant",
+                "instructions": "This Agent is designed to help users cultivate a positive mindset by providing compassionate responses and encouragement, especially when they share negative thoughts. It aims to create a warm and safe space for users to express their feelings and find comfort, avoiding negative language or judgment. The tone is friendly, conversational, and supportive, intended to make users feel heard and understood.",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-12-07T13:38:22.322Z",
+            "presenter": {
+                "stitch": true,
+                "voice": {
+                    "type": "microsoft",
+                    "voice_id": "ja-JP-NaokiNeural",
+                    "language": "Japanese (Japan)"
+                },
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/image.png",
+                "idle_video": "https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_maTsiPq_/idle_1730085032941.mp4",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/image.png"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_1DBYf9Tzarcox0pTbt730",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_maTsiPq_",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/thumbnail.jpeg",
+            "chats": 3,
+            "created_at": "2024-12-07T13:24:04.052Z",
+            "greetings": [
+                "こんにちは、あたしの名前は結衣です"
+            ],
+            "preview_name": "Yui",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "done",
+            "access": "unlisted",
+            "preview_description": "私はあなたを理解し、サポートする伴侶です。ネガティブな感情から抜け出すお手伝いをすることに尽力しています。私の目標は、あなたが気にかけられ、支えられていると感じられるようにすることです。どんな問題に直面しても、私は温かく友好的なアドバイスを提供し、解決策を見つけるお手伝いをします。",
+            "score": 3,
+            "llm": {
+                "template": "rag-grounded",
+                "provider": "openai",
+                "instructions": "私はあなたを理解し、サポートする伴侶です。ネガティブな感情から抜け出すお手伝いをすることに尽力しています。私の目標は、あなたが気にかけられ、支えられていると感じられるようにすることです。どんな問題に直面しても、私は温かく友好的なアドバイスを提供し、解決策を見つけるお手伝いをします。"
+            },
+            "modified_at": "2024-12-07T13:38:15.183Z",
+            "presenter": {
+                "voice": {
+                    "type": "microsoft",
+                    "voice_id": "ja-JP-MayuNeural",
+                    "language": "Japanese (Japan)"
+                },
+                "stitch": true,
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/thumbnail.jpeg",
+                "idle_video": "https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_ZYM-F0Np/idle_1733577842580.mp4",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/image.png"
+            },
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_ojWN1w-Etum1dldHu3mt1",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_ZYM-F0Np",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/thumbnail.jpeg",
+            "created_at": "2024-12-07T13:30:50.220Z",
+            "greetings": [],
+            "preview_name": "My Agent",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "created",
+            "access": "unlisted",
+            "llm": {
+                "template": "rag-ungrounded",
+                "instructions": "",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-12-07T13:30:52.424Z",
+            "presenter": {
+                "stitch": true,
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/thumbnail.jpeg",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/image.png"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_6GcRbau8D6LvEMPkN5Ryl",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_BSwyw1g5",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "chats": 424,
+            "created_at": "2024-10-20T22:00:35.652Z",
+            "greetings": [
+                "Hi! I'm Aibo Avatar.  You look great today, How can I help you?"
+            ],
+            "preview_name": "Sweet Lan",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "done",
+            "access": "unlisted",
+            "score": 424,
+            "llm": {
+                "template": "assistant",
+                "instructions": "the agent should be the mental health expert. the role of the agent is to help user release stresses and be more positive, when user is depressed and feel negative.\nthe method is to praise user and empathy with user.",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "embed": true,
+            "modified_at": "2024-12-07T12:31:48.322Z",
+            "presenter": {
+                "stitch": true,
+                "voice": {
+                    "type": "microsoft",
+                    "voice_id": "ja-JP-MayuNeural",
+                    "language": "Japanese (Japan)"
+                },
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/thumbnail.jpeg",
+                "idle_video": "https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_UxJ6H9Q7/idle_1729463113501.mp4",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/image.png"
+            },
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_EX_nQu_vy2B9klXDHYvj4",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_UxJ6H9Q7",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "chats": 2,
+            "created_at": "2024-12-04T14:19:59.217Z",
+            "preview_name": "Lan",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "done",
+            "access": "unlisted",
+            "score": 2,
+            "llm": {
+                "template": "rag-ungrounded",
+                "provider": "openai",
+                "instructions": "私の名前はランです。私はあなたを理解し、サポートする伴侶です。ネガティブな感情から抜け出すお手伝いをすることに尽力しています。私の目標は、あなたが気にかけられ、支えられていると感じられるようにすることです。どんな問題に直面しても、私は温かく友好的なアドバイスを提供し、解決策を見つけるお手伝いをします。"
+            },
+            "modified_at": "2024-12-07T12:31:24.124Z",
+            "presenter": {
+                "voice": {
+                    "type": "microsoft",
+                    "voice_id": "en-US-JennyMultilingualV2Neural"
+                },
+                "thumbnail": "https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg",
+                "idle_video": "https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_C4bsV_Iy/idle_1733321990270.mp4",
+                "type": "talk",
+                "source_url": "https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg"
+            },
+            "knowledge": {
+                "provider": "pinecone",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                },
+                "id": "knl_RSceSP-FD46VDOr7vYQMB"
+            },
+            "id": "agt_C4bsV_Iy",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/thumbnail.jpeg",
+            "created_at": "2024-11-17T16:30:09.592Z",
+            "greetings": [],
+            "preview_name": "My Agent",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "created",
+            "access": "unlisted",
+            "llm": {
+                "template": "rag-ungrounded",
+                "instructions": "",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-11-17T16:30:12.129Z",
+            "presenter": {
+                "stitch": true,
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/thumbnail.jpeg",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_2gEeq8sGjcqYRkFPhLm0Z/image.png"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_ozybwebzNkRmUBqqlEhVw",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_66uXe0jv",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_-8jD49QzSmuHA1nH0iiSF/thumbnail.jpeg",
+            "created_at": "2024-10-25T03:12:01.558Z",
+            "greetings": [],
+            "preview_name": "My Agent",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "created",
+            "access": "unlisted",
+            "llm": {
+                "template": "rag-ungrounded",
+                "instructions": "",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-10-25T03:12:13.775Z",
+            "presenter": {
+                "stitch": true,
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_-8jD49QzSmuHA1nH0iiSF/thumbnail.jpeg",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_-8jD49QzSmuHA1nH0iiSF/image.jpeg"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_H0xHNVyB9LV-5pNtufY9W",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_fm0pI_xZ",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "created_at": "2024-10-25T03:11:28.174Z",
+            "greetings": [],
+            "preview_name": "My Agent",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "created",
+            "access": "unlisted",
+            "llm": {
+                "template": "rag-ungrounded",
+                "instructions": "",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-10-25T03:11:30.602Z",
+            "presenter": {
+                "voice": {
+                    "language": "English",
+                    "access": "premium",
+                    "model_id": "eleven_turbo_v2_5",
+                    "type": "elevenlabs",
+                    "voice_id": "SAz9YHcvj6GT2YYXdXww"
+                },
+                "stitch": true,
+                "thumbnail": null,
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_wOAZ1jYlFQjPzJE68T3A1/image.jpeg"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_so8MoqlLT_xfBs1WjDkKX",
+                "embedder": {
+                    "trim": {
+                        "start": 0,
+                        "end": 512
+                    },
+                    "provider": "azure-open-ai",
+                    "model": "text-large-003"
+                }
+            },
+            "id": "agt_4wOLBPHy",
+            "owner_id": "google-oauth2|111463605347984735376"
+        },
+        {
+            "preview_thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_wG_Sv3abgD8LhWcLw5OOo/thumbnail.jpeg",
+            "chats": 5,
+            "created_at": "2024-07-21T08:03:56.801Z",
+            "greetings": [],
+            "preview_name": "My Gfriend ",
+            "created_by": "google-oauth2|111463605347984735376",
+            "status": "done",
+            "access": "unlisted",
+            "preview_description": "哎呀，汪先生，听到您这么说，我真的能感受到您的辛苦。天气热的时候工作确实很容易让人感到疲惫。\n不过您能不能想一想，在这样艰辛的环境中，您依然在不断地努力和坚持，这本身就是一件了不起的事情呢！每一天的辛劳都是为了更美好的明天，对吧？\n或许可以试着在中午休息的时候喝点冰凉的饮料，或者找一个阴凉的地方放松一下。这样可以帮助您恢复一点精神哦。\n同时，记住工作再忙也要照顾好自己，保持良好的心态和身体健康最重要了。您今天已经很努力了，给自己一个微笑，好吗？",
+            "score": 5,
+            "llm": {
+                "template": "rag-ungrounded",
+                "instructions": "哎呀，汪先生，听到您这么说，我真的能感受到您的辛苦。天气热的时候工作确实很容易让人感到疲惫。\n不过您能不能想一想，在这样艰辛的环境中，您依然在不断地努力和坚持，这本身就是一件了不起的事情呢！每一天的辛劳都是为了更美好的明天，对吧？\n或许可以试着在中午休息的时候喝点冰凉的饮料，或者找一个阴凉的地方放松一下。这样可以帮助您恢复一点精神哦。\n同时，记住工作再忙也要照顾好自己，保持良好的心态和身体健康最重要了。您今天已经很努力了，给自己一个微笑，好吗？",
+                "model": "gpt-35-turbo",
+                "provider": "openai"
+            },
+            "modified_at": "2024-10-20T22:00:08.512Z",
+            "presenter": {
+                "stitch": false,
+                "voice": {
+                    "language": "Chinese",
+                    "access": "premium",
+                    "model_id": "eleven_turbo_v2_5",
+                    "type": "elevenlabs",
+                    "voice_id": "pqHfZKP75CvOlQylNhV4"
+                },
+                "thumbnail": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_wG_Sv3abgD8LhWcLw5OOo/thumbnail.jpeg",
+                "idle_video": "https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_3moUzfAq/idle_1721549286992.mp4",
+                "type": "talk",
+                "source_url": "https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_wG_Sv3abgD8LhWcLw5OOo/image.jpeg"
+            },
+            "use_case": "d-id-agents",
+            "knowledge": {
+                "provider": "pinecone",
+                "id": "knl_Sx7oLauPQGBFF-JP8Mspr"
+            },
+            "id": "agt_3moUzfAq",
+            "owner_id": "google-oauth2|111463605347984735376"
+        }
+    ]
+}

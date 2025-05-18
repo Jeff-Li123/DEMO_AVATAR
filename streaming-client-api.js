@@ -38,7 +38,7 @@ const streamEventLabel = document.getElementById('stream-event-label');
 
 const presenterInputByService = {
   talks: {
-    source_url: 'https://i.postimg.cc/yY9yXk69/We-Chat-wang-Likes.jpg',
+    source_url: 'https://create-images-results.d-id.com/google-oauth2|111463605347984735376/upl_YKhaIXdurdN6IgzojHTU8/image.png'
   },
   clips: {
     presenter_id: 'v2_public_alex@qcvo4gupoy',
@@ -348,7 +348,7 @@ function setStreamVideoElement(stream) {
 }
 
 function playIdleVideo() {
-  idleVideoElement.src = DID_API.service == 'clips' ? 'resource/alex_v2_idle.mp4' : 'resource/did_cutscene_7sec.mp4';
+  idleVideoElement.src = DID_API.service == 'clips' ? 'resource/alex_v2_idle.mp4' : 'https://agents-results.d-id.com/google-oauth2|111463605347984735376/agt_ZYM-F0Np/idle_1733577842580.mp4';
 }
 
 function stopAllStreams() {

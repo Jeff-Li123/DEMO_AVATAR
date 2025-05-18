@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>D-ID Agents API Demo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -8,54 +7,93 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style-agents.css">
   <link rel="icon" type="image/png" sizes="192x192" href="https://studio.d-id.com/favicon/favicon-192x192.png">
+  <style>
+    /* 将视频居中显示 */
+    #video-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      padding-right: 20px;
+    }
+    #main-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 20px; 
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    #control-section {
+      flex: 1; 
+      padding-left: 20px;
+      overflow-y: auto;
+    }
+    #video-wrapper {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+    }
+    #video-element {
+      width: 400px;
+      height: 400px;
+    }
+  </style>
 </head>
-
 <body>
-  <div id="content">
+  <div id="main-container">
+    <!-- 视频部分仅显示视频 -->
+    <div id="video-section">
+      <div id="video-wrapper">
+        <video id="video-element" src="" autoplay loop muted class="animated" playsinline></video>
+      </div>
+    </div>
 
-    <div id="status">
+    <!-- 控制、状态和对话框部分 -->
+    <div id="control-section">
       <h4>Agent Status</h4>
       Agent ID: <label id="agentId-label"></label><br />
-      Chat ID: <label id="chatId-label"></label><br />
-      <br>
+      Chat ID: <label id="chatId-label"></label><br /><br>
+
       <h4>WebRTC Connection Status</h4>
       ICE gathering status: <label id="ice-gathering-status-label"></label><br />
       ICE status: <label id="ice-status-label"></label><br />
       Peer connection status: <label id="peer-status-label"></label><br />
       Signaling status: <label id="signaling-status-label"></label><br />
-      Streaming status: <label id="streaming-status-label"></label><br />
+      Streaming status: <label id="streaming-status-label"></label><br /><br />
+
+      <div id="agents-control">
+        <button id="create-chat-button" type="button">Create Chat</button>
+        <button id="connect-button" type="button" disabled>Connect</button>
+        <button id="destroy-button" type="button" disabled>Destroy</button>
+      </div>
       <br>
-      <div id="buttons">
-        <button id="agents-button" type="button">Create new Agent with Knowledge</button>
-        <br><br>
-        <button id="connect-button" type="button">Connect</button>
-        <button id="destroy-button" type="button">Destroy</button>
-      </div>
-    </div>
 
-    <div id="video-wrapper">
-      <div>
-        <video id="video-element" width="400" height="400" src="" autoplay loop muted class="animated"></video>
+      <!-- 录音功能 -->
+      <div id="audio-section">
+        <h3>Record and Transcribe on Send:</h3>
+        <button id="record-button">Start Recording</button>
+        <button id="stop-record-button" disabled>Stop Recording</button>
+        <p id="recording-status" style="color: red; display: none;">Recording...</p>
       </div>
-    </div>
+      <div id="statusArea" style="color: #555; margin-top: 10px;">Ready to record...</div>
+      <br>
 
-    <div class="chat">
-      <h4>Chat History</h4>
-      <div id="msgHistory">
+      <!-- 聊天区 -->
+      <div class="chat">
+        <h4>Chat History</h4>
+        <div id="msgHistory"></div>
       </div>
-    </div>
 
+      <br>
+      <textarea id="textArea" cols="50" rows="5" maxlength="280"
+        placeholder="Your message or transcription will appear here"></textarea>
+      <br>
+      <button id="start-button" type="button" disabled>Send</button>
+    </div>
   </div>
 
-  <div>
-    <h3>Type your message here:</h3>
-    <textarea id="textArea" cols="50" rows="5" maxlength="280"></textarea>
-    <br>
-    <button id="start-button" type="button">Send</button>
-  </div>
-
-  <script type="module" src="./agents-client-api.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="./agents-client-api.js"></script>
+  <script type="module" src="./audio-record.js"></script>
 </body>
-
 </html>
