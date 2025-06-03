@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>视频上传</title>
+</head>
+<body>
+  <h2>上传视频</h2>
+  <form action="/api/videos" method="post" enctype="multipart/form-data">
+    <input type="file" name="video" accept="video/*" required>
+    <button type="submit">上传</button>
+  </form>
+</body>
+</html>
