@@ -6,7 +6,12 @@
     "cors": "^2.8.5",
     "express": "^4.21.2"
   },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
   "scripts": {
-    "start": "node app.js"
+    "frontend": "node WebApp-frontend/app.js",
+    "backend": "python video-server-backend/main_video_server.py",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
   }
 }

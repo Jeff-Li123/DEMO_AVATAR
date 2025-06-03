@@ -16,7 +16,7 @@
   ]
 }
 
-2. install the library
+2. install the library 
 pip install -r .\requirement.txt
 
 3. run server
