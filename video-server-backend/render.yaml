@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flask-video-api
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main_video_server.py
+    envVars:
+      - key: BASE_URL
+        value: https://flask-video-api.onrender.com/videos  # 修改为你的后端 URL
