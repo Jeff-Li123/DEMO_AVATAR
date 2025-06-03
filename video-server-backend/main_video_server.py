@@ -13,7 +13,7 @@ os.makedirs(VIDEO_FOLDER, exist_ok=True)
 app.template_folder = os.path.join(BASE_DIR, 'templates')
 
 # 实际访问地址（部署后替换成你的域名）
-BASE_URL = "http://localhost:5000/videos"  # 本地测试用 http://localhost:5000/videos
+BASE_URL = os.environ.get("BASE_URL", "http://localhost:5000/videos")
 
 # 允许的上传类型
 ALLOWED_EXTENSIONS = {'mp4', 'avi', 'mov', 'mkv'}
