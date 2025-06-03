@@ -1,4 +1,4 @@
-example of videos api
+1. example of videos api
 
 {
   "success": "true",
@@ -15,3 +15,12 @@ example of videos api
     }
   ]
 }
+
+2. install the library
+pip install -r .\requirement.txt
+
+3. run server
+python .\main_video_server.py
+
+4. use local postman application 
+GET  http://localhost:5000/api/videos
